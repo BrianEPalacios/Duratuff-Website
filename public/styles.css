@@ -1,0 +1,16 @@
+body {
+  background-color: black;
+}
+.head {
+  font-size: 4em;
+  color: #61481C;
+  margin: 0 auto;
+  text-align: center;
+}
+.foot {
+  color: #61481C;
+  text-align: center;
+}
+.icon {
+  color: #61481C;
+}
