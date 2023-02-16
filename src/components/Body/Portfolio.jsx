@@ -1,6 +1,5 @@
 import React from "react";
 import PortfolioItem from "./PortfolioItem";
-import imagePaths from "../../imagePaths.js";
 
 function Portfolio(props){
   const image_names = ['duratuff_field_day', 'duratuff_longhorn_superheros',
