@@ -53,16 +53,15 @@ body {
   color: #2B4865;
   text-align: center;
 }
-/* .portfolioRow {
+.portfolioRow {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
 }
 .portfolioColumn {
-  flex-grow: 1;
-  flex-basis: 0;
-} */
+  width: 33.33%
+}
 .portfolioImages {
-  width: 33.33%;
+  width: 100%;
   height: auto;
 }
 
