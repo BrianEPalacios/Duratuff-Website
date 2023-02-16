@@ -6,8 +6,8 @@ function Portfolio(props){
   return(
     <div className="portfolio portfolioRow">
         <PortfolioItem
-        key={props.key}
-        path={props.path}
+        key={imagePaths.key}
+        path={imagePaths.path}
         />
     </div>
   );
