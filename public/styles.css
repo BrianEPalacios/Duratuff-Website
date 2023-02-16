@@ -1,16 +1,79 @@
 body {
   background-color: black;
 }
+                                        /* Header */
+.headerContainer {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+.headChild {
+  flex-grow: 1;
+  flex-basis: 0;
+}
 .head {
-  font-size: 4em;
-  color: #61481C;
+  font-size: 6em;
+  color: #2B4865;
   margin: 0 auto;
   text-align: center;
 }
-.foot {
+.quote {
   color: #61481C;
   text-align: center;
+  text-decoration: none;
 }
+.nav div{
+  height: 4px;
+  background-color: white;
+  margin: 5px 0;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+.nav {
+  width: 30px;
+  display: block;
+  margin: 1em 0 0 1em;
+}
+.one {
+  width: 30px;
+}
+.two {
+  width: 20px;
+}
+.three {
+  width: 25px;
+}
+.nav:hover div{
+  width: 30px;
+}
+                                       /* Body */
+
+.bodyText {
+  color: #2B4865;
+  text-align: center;
+}
+/* .portfolioRow {
+  display: flex;
+  flex-direction: row;
+}
+.portfolioColumn {
+  flex-grow: 1;
+  flex-basis: 0;
+} */
+.portfolioImages {
+  width: 33.33%;
+  height: auto;
+}
+
+                                     /* Footer */
+.foot {
+  color: #2B4865;
+  text-align: center;
+}
+
 .icon {
-  color: #61481C;
+  padding: 5px;
+  text-align: center;
+  width: 50;
 }
