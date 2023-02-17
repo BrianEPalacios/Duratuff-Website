@@ -6,7 +6,7 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
-  flex-direction: row;
+  align-items: flex-end;
 }
 .headChild {
   flex-grow: 1;
@@ -52,6 +52,7 @@ body {
 .bodyText {
   color: #2B4865;
   text-align: center;
+  font-size: 3em;
 }
 .portfolioRow {
   display: flex;
@@ -70,9 +71,13 @@ body {
   color: #2B4865;
   text-align: center;
 }
+.socialMediaContainer {
+  display: flex;
+  justify-content: center;
+}
 
 .icon {
   padding: 5px;
   text-align: center;
-  width: 50;
+  width: 50px;
 }
