@@ -12,7 +12,7 @@ function Header() {
             <h1 className="head">Duratuff</h1>
           </div>
           <div className="headChild">
-            <a className="quote" href="facebook.com">
+            <a className="quote" href="./order">
               <h2 className="quote">Get A Quote!</h2>
             </a>
           </div>

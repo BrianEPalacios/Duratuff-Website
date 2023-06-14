@@ -1,7 +1,9 @@
 body {
   background-color: black;
 }
-                                        /* Header */
+a {
+  target: "_blank";
+}                                        /* Header */
 .headerContainer {
   margin: 0;
   padding: 0;
