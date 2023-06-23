@@ -7,8 +7,8 @@
 /* #22577E navy */
 /* #0F6292 navy */
 
-order form colors
-#6c8ca480
-#6c9ab680
-#d3d3d880
-#a9a9a980
+/* order form colors */
+/* #6c8ca4 */
+/* #6c9ab6 */           ### Add 80 to the end to make them transparent ###
+/* #d3d3d8 */
+/* #a9a9a9 */
