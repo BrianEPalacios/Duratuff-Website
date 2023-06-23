@@ -1,0 +1,85 @@
+body {
+  background-color: black;
+}
+a {
+  target: "_blank";
+}                                        /* Header */
+.headerContainer {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: flex-end;
+}
+.headChild {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.head {
+  font-size: 6em;
+  color: #2B4865;
+  margin: 0 auto;
+  text-align: center;
+}
+.quote {
+  color: #61481C;
+  text-align: center;
+  text-decoration: none;
+}
+.nav div{
+  height: 4px;
+  background-color: white;
+  margin: 5px 0;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+.nav {
+  width: 30px;
+  display: block;
+  margin: 1em 0 0 1em;
+}
+.one {
+  width: 30px;
+}
+.two {
+  width: 20px;
+}
+.three {
+  width: 25px;
+}
+.nav:hover div{
+  width: 30px;
+}
+                                       /* Body */
+
+.bodyText {
+  color: #2B4865;
+  text-align: center;
+  font-size: 3em;
+}
+.portfolioRow {
+  display: flex;
+  flex-wrap: wrap;
+}
+.portfolioColumn {
+  width: 33.33%
+}
+.portfolioImages {
+  width: 100%;
+  height: auto;
+}
+
+                                     /* Footer */
+.foot {
+  color: #2B4865;
+  text-align: center;
+}
+.socialMediaContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  padding: 5px;
+  text-align: center;
+  width: 50px;
+}
