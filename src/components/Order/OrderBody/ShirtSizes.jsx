@@ -7,6 +7,8 @@ function ShirtSizes(){
                       "AM", "AL", "AXL", "XXL", "3XL", "4XL", "5XL"];
   return(
     <div>
+
+      <h3 style={{color: "white"}}> Sizes </h3>
       <table>
 
         {shirtSizes.map((shirtSize, index) => (
@@ -15,7 +17,7 @@ function ShirtSizes(){
             <td> <NumberInput /> </td>
           </tr>
         ))}
-        
+
       </table>
     </div>
   );

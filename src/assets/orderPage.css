@@ -4,3 +4,31 @@
   background-position: center;
   /* Add any additional styling here */
 }
+
+.color-box {
+  display: flex;
+}
+
+.blue-box {
+  width: 30px;
+  height: 30px;
+  background-color: blue;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.red-box {
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.white-box {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border: 1px solid black;
+  margin: 10px;
+}
