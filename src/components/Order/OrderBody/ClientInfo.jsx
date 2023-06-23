@@ -10,20 +10,23 @@ function ClientInfo(){
   }
 
   return(
-    <div>
-    <h3 style={{color: "white"}}> Name </h3>
-    <textarea
-      type="name"
-      value={name}
-      placeholder="Name"
-      onChange={handleNameChange}
-      />
-
-    <h3 style={{color: "white"}}> Email </h3>
-    <textarea
-    type="email"
-    placeholder="Email"
-    />
+    <div className="client-info-box">
+      <div>
+        <h3 style={{color: "white"}}> Name </h3>
+          <textarea
+            type="name"
+            value={name}
+            placeholder="Name"
+            onChange={handleNameChange}
+            />
+      </div>
+      <div>
+        <h3 style={{color: "white"}}> Email </h3>
+          <textarea
+          type="email"
+          placeholder="Email"
+          />
+      </div>  
     </ div>
   );
 };

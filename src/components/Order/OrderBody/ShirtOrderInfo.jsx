@@ -7,7 +7,7 @@ import ShirtType from "./ShirtType";
 import ShirtColor from "./ShirtColor";
 
 function ShirtOrderInfo(){
-  return <div>
+  return <div className="form-box">
     <h2 style={{color: "white"}}> Your Info </h2>
     <ClientInfo />
     <h2 style={{color: "white"}}> Shirt Order </h2>

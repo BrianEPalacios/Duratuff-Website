@@ -32,3 +32,11 @@
   border: 1px solid black;
   margin: 10px;
 }
+
+.client-info-box {
+  display: flex;
+}
+
+.form-box {
+  background-color: #6c9ab680;
+}
