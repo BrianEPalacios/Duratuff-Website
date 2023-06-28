@@ -1,7 +1,12 @@
-.order-page {
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.orderPage {
   background-image: url('../images/OrderPageImages/duratuff.jpg');
   background-size: cover;
-  background-position: center;
+  background-position: center top;
   /* Add any additional styling here */
 }
 
@@ -37,6 +42,12 @@
   display: flex;
 }
 
-.form-box {
+.formBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  height: 80%;
+  margin: auto;
   background-color: #6c9ab680;
 }
