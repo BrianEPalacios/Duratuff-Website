@@ -1,9 +1,10 @@
 import React from "react";
+import homePageCSS from "../../assets/homePage.module.css";
 
 function PortfolioItem(props){
   return(
-    <div className="portfolioColumn">
-      <img className="portfolioImages" src={require('../../images/PortfolioImages/' + props.path + '.jpg')} alt=""/>
+    <div className={homePageCSS.portfolioColumn}>
+      <img className={homePageCSS.portfolioImages} src={require('../../images/PortfolioImages/' + props.path + '.jpg')} alt=""/>
     </div>
   )
 };

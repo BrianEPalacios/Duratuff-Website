@@ -1,4 +1,5 @@
 import React from "react";
+import homePageCSS from "../../assets/homePage.module.css";
 import PortfolioItem from "./PortfolioItem";
 
 function Portfolio(props){
@@ -7,7 +8,7 @@ function Portfolio(props){
  'duratuff_zapata_merlins']
 
   return(
-    <div className="portfolio portfolioRow">
+    <div className={`${homePageCSS.portfolio} ${homePageCSS.portfolioRow}`}>
       {image_names.map((image_name, index) =>(
         <PortfolioItem
         key={index+1}

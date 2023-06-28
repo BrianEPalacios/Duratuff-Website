@@ -1,4 +1,4 @@
-body {
+.homePageBody {
   background-color: black;
 }
 a {
@@ -27,7 +27,7 @@ a {
 }
 .nav div{
   height: 4px;
-  background-color: white;
+  /* background-color: white; */
   margin: 5px 0;
   border-radius: 25px;
   transition: 0.3s;
