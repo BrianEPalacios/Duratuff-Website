@@ -5,6 +5,7 @@ import Order from "./pages/Order";
 import Contact from "./pages/Contact";
 import AboutUs from "./pages/AboutUs";
 import School from "./pages/School";
+import Hebbronville from "./pages/Schools/Hebbronville";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/aboutus" element={<AboutUs />} />
           <Route path="/school" element={<School />} />
+          <Route path="/school/hebbronville" element={<Hebbronville />} />
         </Routes>
       </Router>
     </div>
