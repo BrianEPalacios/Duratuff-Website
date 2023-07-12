@@ -60,11 +60,12 @@ a {
   display: flex;
   flex-wrap: wrap;
 }
-.portfolioColumn {
+/* .portfolioColumn {
   width: 33.33%
-}
-.portfolioImages {
-  width: 100%;
+} */
+.portfolioImage {
+  border-radius: 2rem;
+  max-width: 95%;
   height: auto;
 }
 
