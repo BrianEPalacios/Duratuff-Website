@@ -13,7 +13,11 @@ const items = [
   <img  className={homePageCSS.portfolioImage} src={require('../../images/PortfolioImages/duratuff_field_day.jpg')} alt=""/>,
   <img  className={homePageCSS.portfolioImage} src={require('../../images/PortfolioImages/duratuff_longhorn_superheros.jpg')} alt=""/>,
   <img  className={homePageCSS.portfolioImage} src={require('../../images/PortfolioImages/duratuff_oneact_dog.jpg')} alt=""/>,
-  <img  className={homePageCSS.portfolioImage} src={require('../../images/PortfolioImages/duratuff_ramirez_isd.jpg')} alt=""/>
+  <img  className={homePageCSS.portfolioImage} src={require('../../images/PortfolioImages/duratuff_ramirez_isd.jpg')} alt=""/>,
+  <img  className={homePageCSS.portfolioImage} src={require('../../images/PortfolioImages/duratuff_sandiego_embroidery.jpg')} alt=""/>,
+  <img  className={homePageCSS.portfolioImage} src={require('../../images/PortfolioImages/duratuff_valentines_day.jpg')} alt=""/>,
+  <img  className={homePageCSS.portfolioImage} src={require('../../images/PortfolioImages/duratuff_zapata_mariachi.jpg')} alt=""/>,
+  <img  className={homePageCSS.portfolioImage} src={require('../../images/PortfolioImages/duratuff_zapata_merlins.jpg')} alt=""/>,
 ];
 
 const Carousel = () => {

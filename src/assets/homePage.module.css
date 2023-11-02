@@ -20,6 +20,17 @@ a {
   margin: 0 auto;
   text-align: center;
 }
+.duratuffQuote {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.linkbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
 .quote {
   color: #61481C;
   text-align: center;
@@ -50,7 +61,22 @@ a {
   width: 30px;
 }
                                        /* Body */
+.duratuffLogoContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.duratuffLogo {
+  max-width: 100%;
+  height: auto;
+  clip-path: inset(1px);
+}
+
+.body-section-one{
+  background-color: white;
+  color: #2B4865;
+}
 .bodyText {
   color: #2B4865;
   text-align: center;
